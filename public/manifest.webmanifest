@@ -1,0 +1,19 @@
+{
+  "name": "TasteTrail - Self-Guided Driven Wine & Spirits Trails",
+  "short_name": "TasteTrail",
+  "description": "Drive the trail at your own pace. Redeem tasting flights at every stop.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#722F37",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

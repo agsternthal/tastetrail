@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #fafaf9;
+  color: #1c1917;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: calc(4rem + env(safe-area-inset-bottom));
+}
+
+.app-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.mapboxgl-popup-content {
+  font-family: inherit;
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.mapboxgl-ctrl-attrib-inner {
+  font-size: 10px;
+}

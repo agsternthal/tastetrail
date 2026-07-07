@@ -1,0 +1,686 @@
+{
+  "id": "trail-burgundy-cote-de-nuits",
+  "region": "Cote de Nuits, Burgundy",
+  "title": "Route des Grands Crus - Cote de Nuits",
+  "summary": "Drive the legendary wine road through Gevrey-Chambertin, Morey-Saint-Denis, Chambolle-Musigny, and Vosne-Romanee.",
+  "description": "The Route des Grands Crus is the backbone of Burgundian wine. This trail runs the southern half - the Cote de Nuits - through six stops from Gevrey-Chambertin down to Nuits-Saint-Georges. A mix of appointment-only domaines and open village caveaux. Note the French lunch break: most producers close 12:00-14:00; plan your route accordingly.",
+  "price_cents": 8900,
+  "currency": "EUR",
+  "duration_min": 300,
+  "hero_image": "/api/google/photo?ref=AaVGc3merEtP1fHKFudhp0Rj8DhcsBb7pHuRnbjXmZNOpyDk8-qMCNjW2Aw3HrnqXdFh9cnZEUW12VKd07JP5qhOn7-fDlI8u_iEJz483-SnKqusVbbbqwRCbLZwRcXJd1tJ3N0sli_A7E5lMK_Hv6CI_BiH1IgwXRZSk_euQ2qCqJWoSEY8u0vVtJYqdzyZgdUVW-_V3025_qbiVDkmWHLmXm5XYQf3yeSwsCL9M-OSyKhG05Q0Z3r2BMXZyfoD8_AtXsXvEBUsAoJvpvAX40acwyVXOFoAfCr_ygw4CDX-nGy-ti_ubRImAFWTDbolWWub6qp-TbmNQ1ljOBG1A6uAh-1vOX18d_9jk5_iiGCMyUVILMrl0Cpzdh7JDXlJlHA7NuQhxoO5GpP9LmCbmjGMJw4nlYOsLO_4pFcboaoNToQzJQ&max=1200",
+  "included": [
+    "6 pre-paid tasting flights",
+    "GPS driving route along the Route des Grands Crus",
+    "Story and tasting notes at every stop",
+    "Redeem-by-QR at each domaine or caveau"
+  ],
+  "tags": [
+    {
+      "category": "Region",
+      "label": "Burgundy"
+    },
+    {
+      "category": "DrinkType",
+      "label": "Wine"
+    },
+    {
+      "category": "Style",
+      "label": "Pinot Noir"
+    },
+    {
+      "category": "Style",
+      "label": "Grand Cru"
+    }
+  ],
+  "drink_types": [
+    "wine"
+  ],
+  "unit_system": "metric",
+  "timezone": "Europe/Paris",
+  "best_time": "Most domaines open by appointment only. Reserve well in advance. Avoid the lunch break (12:00-14:00).",
+  "stops": [
+    {
+      "id": "stop-burgundy-1",
+      "position": 1,
+      "name": "Domaine Faiveley",
+      "address": "8 Rue du Tribourg, 21700 Nuits-Saint-Georges, France",
+      "lat": 47.1340188,
+      "lng": 4.9471397,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note - note if appointment required",
+      "hours": [
+        "Monday: 9:00 AM – 12:00 PM, 1:30 – 5:30 PM",
+        "Tuesday: 9:00 AM – 12:00 PM, 1:30 – 5:30 PM",
+        "Wednesday: 9:00 AM – 12:00 PM, 1:30 – 5:30 PM",
+        "Thursday: 9:00 AM – 12:00 PM, 1:30 – 5:30 PM",
+        "Friday: 9:00 AM – 12:00 PM, 1:30 – 5:30 PM",
+        "Saturday: Closed",
+        "Sunday: Closed"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1730"
+          },
+          "open": {
+            "day": 1,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1730"
+          },
+          "open": {
+            "day": 2,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1730"
+          },
+          "open": {
+            "day": 3,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1730"
+          },
+          "open": {
+            "day": 4,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1730"
+          },
+          "open": {
+            "day": 5,
+            "time": "1330"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3merEtP1fHKFudhp0Rj8DhcsBb7pHuRnbjXmZNOpyDk8-qMCNjW2Aw3HrnqXdFh9cnZEUW12VKd07JP5qhOn7-fDlI8u_iEJz483-SnKqusVbbbqwRCbLZwRcXJd1tJ3N0sli_A7E5lMK_Hv6CI_BiH1IgwXRZSk_euQ2qCqJWoSEY8u0vVtJYqdzyZgdUVW-_V3025_qbiVDkmWHLmXm5XYQf3yeSwsCL9M-OSyKhG05Q0Z3r2BMXZyfoD8_AtXsXvEBUsAoJvpvAX40acwyVXOFoAfCr_ygw4CDX-nGy-ti_ubRImAFWTDbolWWub6qp-TbmNQ1ljOBG1A6uAh-1vOX18d_9jk5_iiGCMyUVILMrl0Cpzdh7JDXlJlHA7NuQhxoO5GpP9LmCbmjGMJw4nlYOsLO_4pFcboaoNToQzJQ",
+      "map_url": "https://maps.google.com/?cid=16145033006455495366",
+      "booking_type": "required",
+      "booking_url": null,
+      "drive_time_to_next_min": 5,
+      "lunch_close_start": "12:00",
+      "lunch_close_end": "14:00",
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for stop in Gevrey-Chambertin"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3merEtP1fHKFudhp0Rj8DhcsBb7pHuRnbjXmZNOpyDk8-qMCNjW2Aw3HrnqXdFh9cnZEUW12VKd07JP5qhOn7-fDlI8u_iEJz483-SnKqusVbbbqwRCbLZwRcXJd1tJ3N0sli_A7E5lMK_Hv6CI_BiH1IgwXRZSk_euQ2qCqJWoSEY8u0vVtJYqdzyZgdUVW-_V3025_qbiVDkmWHLmXm5XYQf3yeSwsCL9M-OSyKhG05Q0Z3r2BMXZyfoD8_AtXsXvEBUsAoJvpvAX40acwyVXOFoAfCr_ygw4CDX-nGy-ti_ubRImAFWTDbolWWub6qp-TbmNQ1ljOBG1A6uAh-1vOX18d_9jk5_iiGCMyUVILMrl0Cpzdh7JDXlJlHA7NuQhxoO5GpP9LmCbmjGMJw4nlYOsLO_4pFcboaoNToQzJQ&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history, ratings, or specific vintages."
+        }
+      ]
+    },
+    {
+      "id": "stop-burgundy-2",
+      "position": 2,
+      "name": "Caveau des Vignerons",
+      "address": "3 Pl. de l'Église, 21220 Morey-Saint-Denis, France",
+      "lat": 47.19557409999999,
+      "lng": 4.9619901,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 2:00 – 6:00 PM",
+        "Tuesday: 10:00 AM – 12:30 PM, 1:30 – 7:00 PM",
+        "Wednesday: 10:00 AM – 12:30 PM, 1:30 – 7:00 PM",
+        "Thursday: 10:00 AM – 12:30 PM, 1:30 – 7:00 PM",
+        "Friday: 9:00 AM – 7:00 PM",
+        "Saturday: 10:00 AM – 12:30 PM, 1:30 – 7:00 PM",
+        "Sunday: Closed"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1400"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1230"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1230"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1900"
+          },
+          "open": {
+            "day": 3,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1230"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1330"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "0900"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1230"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1330"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3n5Pa-VhC5DUyv_ir60DOvU_-OQAHGI8XgwFLvgdIhKGDwAb_8cFFh8t1UHeKYfSK9fgGve4BRzn10Wa6VhnaGIObFxXWkah3In7xk7-BsML1k87_mCnVJxN8ckL5gAU25LbB7xW46kOpVQMOck8KdnE5OyoyGqkxfta04mKswdciywQjoj0YeHVMuJQnG8z_5BPHVHCZHFXPQpSlKsbU6720PnuEilPBbay2Sw4HbHZyZDFVyd2kPN7xhnW53095hqVxCUFYuR_geedbWQEe4BbAZU5Dy7zYsbBzYzByvlzXjmGZMLDUnX3t-IF_4EpK7VppSxqeKGFXcKYgA2XkinQ8YbiUoTPOvpv0g7-rNl9KlGnUzHIyQWpVCgbVt8IBnz69czVLKGDKOOWnMYLI3tCzH_lPBuUEWmZuY18Psxbw",
+      "map_url": "https://maps.google.com/?cid=10936702911055954693",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 4,
+      "lunch_close_start": "12:00",
+      "lunch_close_end": "14:00",
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Morey-Saint-Denis stop"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3n5Pa-VhC5DUyv_ir60DOvU_-OQAHGI8XgwFLvgdIhKGDwAb_8cFFh8t1UHeKYfSK9fgGve4BRzn10Wa6VhnaGIObFxXWkah3In7xk7-BsML1k87_mCnVJxN8ckL5gAU25LbB7xW46kOpVQMOck8KdnE5OyoyGqkxfta04mKswdciywQjoj0YeHVMuJQnG8z_5BPHVHCZHFXPQpSlKsbU6720PnuEilPBbay2Sw4HbHZyZDFVyd2kPN7xhnW53095hqVxCUFYuR_geedbWQEe4BbAZU5Dy7zYsbBzYzByvlzXjmGZMLDUnX3t-IF_4EpK7VppSxqeKGFXcKYgA2XkinQ8YbiUoTPOvpv0g7-rNl9KlGnUzHIyQWpVCgbVt8IBnz69czVLKGDKOOWnMYLI3tCzH_lPBuUEWmZuY18Psxbw&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-burgundy-3",
+      "position": 3,
+      "name": "CAVEAU DES MUSIGNYS",
+      "address": "1 Rue Traversière, 21220 Chambolle-Musigny, France",
+      "lat": 47.1859005,
+      "lng": 4.950297099999999,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 10:00 AM – 6:00 PM",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 6:00 PM",
+        "Saturday: 10:00 AM – 6:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1800"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3lrcU0AI-lHkpuXwt32C4gzPCHp9o8CbAgdOX_ZuKDfJkuCZ1Fyr3f63H5yRgR4tXEtEZHTYVLwRve61ZYZktRDtLDIRH6azF9nbMSSGKzj3Oveqe9WGSjy3XVGQEGNM6R57FLWkSCoITcDIdl9AWxXm0eAHL9uT8tIc4zbp9Fv8x4NyVZ6H_VFvI-UddJRj4IjYSUvNcD0srhj8HNz75foaNCgUs0L6NwnkgipkgrjP8x4b7B8RVssJyFEL_LyfUtnyP5luS7cTdXN1dnby5dj8ggRGgYb4acsUsHz24EaNK0EjefJwm29FPhj0HowB87ecfYbWZlNSumQC1OSbPzZyIyVcT2OT91vFzByOLIqRHSy5MUgwc7JQK08YTlF-7EGqxGzV7euaVlMUMhOXHOlmVDwRESsiz0TEEMSmSY",
+      "map_url": "https://maps.google.com/?cid=2009584786073561941",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 6,
+      "lunch_close_start": "12:00",
+      "lunch_close_end": "14:00",
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Chambolle-Musigny stop"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3lrcU0AI-lHkpuXwt32C4gzPCHp9o8CbAgdOX_ZuKDfJkuCZ1Fyr3f63H5yRgR4tXEtEZHTYVLwRve61ZYZktRDtLDIRH6azF9nbMSSGKzj3Oveqe9WGSjy3XVGQEGNM6R57FLWkSCoITcDIdl9AWxXm0eAHL9uT8tIc4zbp9Fv8x4NyVZ6H_VFvI-UddJRj4IjYSUvNcD0srhj8HNz75foaNCgUs0L6NwnkgipkgrjP8x4b7B8RVssJyFEL_LyfUtnyP5luS7cTdXN1dnby5dj8ggRGgYb4acsUsHz24EaNK0EjefJwm29FPhj0HowB87ecfYbWZlNSumQC1OSbPzZyIyVcT2OT91vFzByOLIqRHSy5MUgwc7JQK08YTlF-7EGqxGzV7euaVlMUMhOXHOlmVDwRESsiz0TEEMSmSY&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-burgundy-4",
+      "position": 4,
+      "name": "Clos de Vougeot Castle",
+      "address": "Rue de la Montagne, 21640 Vougeot, France",
+      "lat": 47.1748138,
+      "lng": 4.955246,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note - landmark visit",
+      "hours": [
+        "Monday: 9:30 AM – 6:00 PM",
+        "Tuesday: 9:30 AM – 6:00 PM",
+        "Wednesday: 9:30 AM – 6:00 PM",
+        "Thursday: 9:30 AM – 6:00 PM",
+        "Friday: 9:30 AM – 6:00 PM",
+        "Saturday: 9:30 AM – 5:00 PM",
+        "Sunday: 9:30 AM – 6:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1800"
+          },
+          "open": {
+            "day": 5,
+            "time": "0930"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "0930"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3nE6EoqJvpRxUM32Qz1SBYqgwwyRNWgswsvbNQJZQh-6pUitzGSNCoxmM1EE5du8PLVP_G0vPlTQMNE1i4iMygN5kc1w3MWxC9vWr2dIvwLn9r_aUp6ZGTdUktLbJSo-lnutvV4k6L-IRksT_BHLtfwzuOBsljP5xbHisbsbH62-i7l0Wo4RWidqu1bQADY79RTSgV1qpw6WP3Mv0u2Wd_A2bv8vkWjbEywZcdrUV1teWlYOukgjEgBOT5Doeew91na8agGByJOHIZZ00m3g6f04pm6kNOrmboEwj1_WOs2xXjv4K0qUbdLLTxEA-j5fpYBg-PAgK2L24RGKJq1HRhh48J45XSmTtEz-ZrcoNR_huF05IIl1l2BeJGffs4ZynaX5aFIvp8AJxpkRzgh-huOEPBbgQoyNPe9pXi15N-Glg",
+      "map_url": "https://maps.google.com/?cid=12393322075087868836",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 5,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Clos de Vougeot"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3nE6EoqJvpRxUM32Qz1SBYqgwwyRNWgswsvbNQJZQh-6pUitzGSNCoxmM1EE5du8PLVP_G0vPlTQMNE1i4iMygN5kc1w3MWxC9vWr2dIvwLn9r_aUp6ZGTdUktLbJSo-lnutvV4k6L-IRksT_BHLtfwzuOBsljP5xbHisbsbH62-i7l0Wo4RWidqu1bQADY79RTSgV1qpw6WP3Mv0u2Wd_A2bv8vkWjbEywZcdrUV1teWlYOukgjEgBOT5Doeew91na8agGByJOHIZZ00m3g6f04pm6kNOrmboEwj1_WOs2xXjv4K0qUbdLLTxEA-j5fpYBg-PAgK2L24RGKJq1HRhh48J45XSmTtEz-ZrcoNR_huF05IIl1l2BeJGffs4ZynaX5aFIvp8AJxpkRzgh-huOEPBbgQoyNPe9pXi15N-Glg&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-burgundy-5",
+      "position": 5,
+      "name": "Confuron Cotetidot Jack",
+      "address": "10 Rue de la Fontaine, 21700 Vosne-Romanée, France",
+      "lat": 47.155241,
+      "lng": 4.9565374,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [],
+      "hours_periods": [],
+      "photo_ref": "AaVGc3nmPnL4sOC30WBwn2yS3gSUGr3tIH9IMgIuhW-7P3vKtgsMME8iCcbvxbUIxSRXcpPiAKhs5fnJuTxqFneIxEUbm4im-dKyRwFaE7hSzAOnvFmzeUKx2tNqXuI3vHNjA8HUziMnVPlASrTPCMN55fFdoFz-sxVizooe8vwMfWnv8v9HW8rVn5mjEXhN759hG62YqDFyV_-qm2IX_YGjdy-ySWEDyUSDxyRaY--xjTEorC3eUmVa385wbmw_A5EE06crvrc3FX7R2D8EPkfSEP0SWTAxHb9EXg_BShFFR-rWJXw_-O-mVoaWpmQN7lhIHcciHqIPVbWkK4tpZOY4cs2VVOoI9lIKxi0_H6k7ZLroHBom_ic496T95Fp0oXKS7tKXQp3bluWqFavoCg3qZgEbXfRv0lV8yWsFSSGur_wg3MunEYdeCoE5yXkpEw",
+      "map_url": "https://maps.google.com/?cid=14012781336271246560",
+      "booking_type": "required",
+      "booking_url": null,
+      "drive_time_to_next_min": 4,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Vosne-Romanee stop"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3nmPnL4sOC30WBwn2yS3gSUGr3tIH9IMgIuhW-7P3vKtgsMME8iCcbvxbUIxSRXcpPiAKhs5fnJuTxqFneIxEUbm4im-dKyRwFaE7hSzAOnvFmzeUKx2tNqXuI3vHNjA8HUziMnVPlASrTPCMN55fFdoFz-sxVizooe8vwMfWnv8v9HW8rVn5mjEXhN759hG62YqDFyV_-qm2IX_YGjdy-ySWEDyUSDxyRaY--xjTEorC3eUmVa385wbmw_A5EE06crvrc3FX7R2D8EPkfSEP0SWTAxHb9EXg_BShFFR-rWJXw_-O-mVoaWpmQN7lhIHcciHqIPVbWkK4tpZOY4cs2VVOoI9lIKxi0_H6k7ZLroHBom_ic496T95Fp0oXKS7tKXQp3bluWqFavoCg3qZgEbXfRv0lV8yWsFSSGur_wg3MunEYdeCoE5yXkpEw&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-burgundy-6",
+      "position": 6,
+      "name": "Caveau du Beffroi",
+      "address": "5 Rue Sonoys, 21700 Nuits-Saint-Georges, France",
+      "lat": 47.1364581,
+      "lng": 4.949726099999999,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 10:00 AM – 7:00 PM",
+        "Tuesday: 10:00 AM – 7:00 PM",
+        "Wednesday: Closed",
+        "Thursday: 10:00 AM – 7:00 PM",
+        "Friday: 10:00 AM – 7:00 PM",
+        "Saturday: 10:00 AM – 7:00 PM",
+        "Sunday: 10:00 AM – 7:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1900"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1900"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1900"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1900"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3k9jgWn-UuYChQ845vjMAG5yGKZkstVL78pz7xo4-vpM19b7lNrgpQPHpW5qUjfCNEYAtDnNJlp0RiRdQl9d5IOzp9qKjoekn4eP8fo7w2avkSJ59DWEm_U2CZzmXCvtXwDRi8aQ_xA_GNJWxP6hZ8Qw6-DhtTEbaB2yAw-cNwZCwDXT1mOmNQiMyRdnhVYxNAArr9PCuJlJrybDNdSbTtGl6aO6tEOGdXDp2xhBFL9UTpvFrMhlMRYYudSbUlpzOb_Fh8en5mPAhzdkjKKtpZ6NWyC8mFt2EFILtZvpCoiGevembjqSeltHYuT6PZ2lRN94cwSnY4VMFGujQHLaJC_Nm-ar2J36-oil_FdDZ9dmjq9i7Gq9aUNwfbmIfLOVo011A1t8-mitRfK0ilIcZdko6tW30Qc_vT2YqY-SVs",
+      "map_url": "https://maps.google.com/?cid=8282249857837319246",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": null,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Nuits-Saint-Georges stop"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3k9jgWn-UuYChQ845vjMAG5yGKZkstVL78pz7xo4-vpM19b7lNrgpQPHpW5qUjfCNEYAtDnNJlp0RiRdQl9d5IOzp9qKjoekn4eP8fo7w2avkSJ59DWEm_U2CZzmXCvtXwDRi8aQ_xA_GNJWxP6hZ8Qw6-DhtTEbaB2yAw-cNwZCwDXT1mOmNQiMyRdnhVYxNAArr9PCuJlJrybDNdSbTtGl6aO6tEOGdXDp2xhBFL9UTpvFrMhlMRYYudSbUlpzOb_Fh8en5mPAhzdkjKKtpZ6NWyC8mFt2EFILtZvpCoiGevembjqSeltHYuT6PZ2lRN94cwSnY4VMFGujQHLaJC_Nm-ar2J36-oil_FdDZ9dmjq9i7Gq9aUNwfbmIfLOVo011A1t8-mitRfK0ilIcZdko6tW30Qc_vT2YqY-SVs&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    }
+  ]
+}

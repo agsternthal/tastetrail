@@ -1,0 +1,711 @@
+{
+  "id": "trail-seneca-lake",
+  "region": "Finger Lakes, NY",
+  "title": "Seneca Lake West Side Wine Trail",
+  "summary": "A half-day drive along Route 14 through some of the Finger Lakes finest Riesling and red wine country.",
+  "description": "The west side of Seneca Lake is one of the most concentrated wine regions in the eastern United States. This route follows Route 14 from Watkins Glen north through six wineries, covering everything from crisp Rieslings to structured reds. Plan for a half-day with a designated driver or a rideshare plan in place.",
+  "price_cents": 4900,
+  "currency": "USD",
+  "duration_min": 240,
+  "hero_image": "/api/google/photo?ref=AaVGc3lsKHQT9vmyQwL8TPmjMSz0p3yvytER0662Q3RxLfaqdmD8MxmLOPHYz9XSzcNjfbM1svk2YnSUGmaZ2ZYnPhLeXmfgWcFZwQ308jDgZjT4itPfVKvhkdfVLMPFN2Net049C6Seg3_iFZtUO_8ZNgZKOi21Nme8WqB0Sud8ijkMFrh_Z9l1Zo_orJyZMJHyyHvjPyO00jSUNWNRnpt_GZjw4xkdUnKfOC2gg-y_dwqZONreWkeySFL_DUri-9lk5L315rofVUJzxMXQQq0OJlgy62wPe6KJirXujxLYh1pUNBC-Bo-I_LFZ4BaQbFXZkN6jtFWqHq0G4ih7MVpoloGl88dJbZBfY3Cl7DPq-33QK8K3RESV08rn5K8xA0VpQsNmckbugCq0NnFhbwq0VBlD0KH49kffc5oZhXaw7ptZvlZBPeIC-2-jyDxS_HhW&max=1200",
+  "included": [
+    "6 pre-paid tasting flights",
+    "GPS driving route along Route 14",
+    "Story and tasting notes at every stop",
+    "Redeem-by-QR at each winery"
+  ],
+  "tags": [
+    {
+      "category": "Region",
+      "label": "Finger Lakes"
+    },
+    {
+      "category": "DrinkType",
+      "label": "Wine"
+    },
+    {
+      "category": "Style",
+      "label": "Riesling Country"
+    }
+  ],
+  "drink_types": [
+    "wine"
+  ],
+  "unit_system": "imperial",
+  "timezone": "America/New_York",
+  "best_time": "Best driven May through October. Most wineries open 10am-5pm.",
+  "stops": [
+    {
+      "id": "stop-seneca-1",
+      "position": 1,
+      "name": "Lakewood Vineyards",
+      "address": "4024 NY-14, Watkins Glen, NY 14891, USA",
+      "lat": 42.4288566,
+      "lng": -76.9053784,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note (hours, walk-in vs reservation, etc.)",
+      "hours": [
+        "Monday: 10:00 AM – 5:00 PM",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 12:00 – 5:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3lsKHQT9vmyQwL8TPmjMSz0p3yvytER0662Q3RxLfaqdmD8MxmLOPHYz9XSzcNjfbM1svk2YnSUGmaZ2ZYnPhLeXmfgWcFZwQ308jDgZjT4itPfVKvhkdfVLMPFN2Net049C6Seg3_iFZtUO_8ZNgZKOi21Nme8WqB0Sud8ijkMFrh_Z9l1Zo_orJyZMJHyyHvjPyO00jSUNWNRnpt_GZjw4xkdUnKfOC2gg-y_dwqZONreWkeySFL_DUri-9lk5L315rofVUJzxMXQQq0OJlgy62wPe6KJirXujxLYh1pUNBC-Bo-I_LFZ4BaQbFXZkN6jtFWqHq0G4ih7MVpoloGl88dJbZBfY3Cl7DPq-33QK8K3RESV08rn5K8xA0VpQsNmckbugCq0NnFhbwq0VBlD0KH49kffc5oZhXaw7ptZvlZBPeIC-2-jyDxS_HhW",
+      "map_url": "https://maps.google.com/?cid=272213829659035336",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 8,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Lakewood Vineyards"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3lsKHQT9vmyQwL8TPmjMSz0p3yvytER0662Q3RxLfaqdmD8MxmLOPHYz9XSzcNjfbM1svk2YnSUGmaZ2ZYnPhLeXmfgWcFZwQ308jDgZjT4itPfVKvhkdfVLMPFN2Net049C6Seg3_iFZtUO_8ZNgZKOi21Nme8WqB0Sud8ijkMFrh_Z9l1Zo_orJyZMJHyyHvjPyO00jSUNWNRnpt_GZjw4xkdUnKfOC2gg-y_dwqZONreWkeySFL_DUri-9lk5L315rofVUJzxMXQQq0OJlgy62wPe6KJirXujxLYh1pUNBC-Bo-I_LFZ4BaQbFXZkN6jtFWqHq0G4ih7MVpoloGl88dJbZBfY3Cl7DPq-33QK8K3RESV08rn5K8xA0VpQsNmckbugCq0NnFhbwq0VBlD0KH49kffc5oZhXaw7ptZvlZBPeIC-2-jyDxS_HhW&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story about Lakewood Vineyards. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-seneca-2",
+      "position": 2,
+      "name": "Castel Grisch Winery",
+      "address": "3380 County Rd 28, Watkins Glen, NY 14891, USA",
+      "lat": 42.396767,
+      "lng": -76.901166,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 10:00 AM – 6:00 PM",
+        "Tuesday: 10:00 AM – 6:00 PM",
+        "Wednesday: 10:00 AM – 6:00 PM",
+        "Thursday: 10:00 AM – 6:00 PM",
+        "Friday: 10:00 AM – 7:00 PM",
+        "Saturday: 10:00 AM – 7:00 PM",
+        "Sunday: 10:00 AM – 6:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1800"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1800"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1800"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1800"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1800"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3n28jrR9esUJwSuFujXqoCj0Eux1K6WwoNxOspl0sTlNFUlTb0YQ9ZLm-Fz5YLilWmRxYXfbpZs_Ddcil2eNuwJq8KjBoxbvHjuYsMNthR_JdX6UI7CCCcEprAxDbLvJplV1HvcawuvDEOygUMC3-L2HaOrBpFnNCOtkBhKHrMxJx1HbBYkcKkuCTr4SQXFOzR9HGk0VSQOmgefnKxRaitVUlMlDWBG84sQmGw5M1WZPX6Hbdh70Y9maz5mJSikFWJkKE6knXuDmOv38bZx2xqer6zUavctpNakAkJEqcIcOV0ZHsDXhXFQX6sLfrznh1GWiKV10Ph-Q5Arzp4QxxGmhdI00RUBtRiso1oKD9oC09myHuc-am9TbVti20l1Hq2ky0j3BB-LU3tWsYUTJWhE14UGw2W8RWs-pfWMZ_nt2BBA",
+      "map_url": "https://maps.google.com/?cid=7024259603905623041",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 10,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Castel Grisch"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3n28jrR9esUJwSuFujXqoCj0Eux1K6WwoNxOspl0sTlNFUlTb0YQ9ZLm-Fz5YLilWmRxYXfbpZs_Ddcil2eNuwJq8KjBoxbvHjuYsMNthR_JdX6UI7CCCcEprAxDbLvJplV1HvcawuvDEOygUMC3-L2HaOrBpFnNCOtkBhKHrMxJx1HbBYkcKkuCTr4SQXFOzR9HGk0VSQOmgefnKxRaitVUlMlDWBG84sQmGw5M1WZPX6Hbdh70Y9maz5mJSikFWJkKE6knXuDmOv38bZx2xqer6zUavctpNakAkJEqcIcOV0ZHsDXhXFQX6sLfrznh1GWiKV10Ph-Q5Arzp4QxxGmhdI00RUBtRiso1oKD9oC09myHuc-am9TbVti20l1Hq2ky0j3BB-LU3tWsYUTJWhE14UGw2W8RWs-pfWMZ_nt2BBA&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story about Castel Grisch. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-seneca-3",
+      "position": 3,
+      "name": "Chateau LaFayette Reneau",
+      "address": "5081 NY-414, Hector, NY 14841, USA",
+      "lat": 42.4799915,
+      "lng": -76.86969549999999,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 11:00 AM – 5:00 PM",
+        "Tuesday: 11:00 AM – 5:00 PM",
+        "Wednesday: 11:00 AM – 5:00 PM",
+        "Thursday: 11:00 AM – 5:00 PM",
+        "Friday: 11:00 AM – 7:00 PM",
+        "Saturday: 11:00 AM – 7:00 PM",
+        "Sunday: 11:00 AM – 5:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1900"
+          },
+          "open": {
+            "day": 5,
+            "time": "1100"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1900"
+          },
+          "open": {
+            "day": 6,
+            "time": "1100"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3k-FRx-B2clKTijI38LwtcGandOf2L6mOpEZpS0iNbT10LDIf_FgJuM2bJ_i-hHlnl2G-w1ztRyxcKH8_LW7umfcPmT-mnkxtoZ8Y-86-B0bXytjBch4H0Qoj2-wPXS8IPnbBsc4GhefAQmPplsU7ObMzaXZmWlIQLsOc3OvGTZDZ_cOWdb4oYPKqWnzkcuvwFIcdjIB7twROPFToMgI9a2Hk4ucYZW8F8FZxytndr7xc2ztng-2QYUHbmT7MPnyFCf6tm0kaxK8A4wwguXpdHoTl7Ax1Tpax6M1lNyBTTmR9lW2NogXrti6wukRcYlgczOi7eqkoCL9Oh1BW1H3w_pKWxdwAVA51Xr6fJuSzHFg2WSzN4cITt9LkcJlY3ckfdntEwRBgwfYln-cJ0gPM6vkSgxHNqxbM9HYlhtPXS8yA",
+      "map_url": "https://maps.google.com/?cid=8871369800322007263",
+      "booking_type": "recommended",
+      "booking_url": null,
+      "drive_time_to_next_min": 7,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Chateau Lafayette Reneau"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3k-FRx-B2clKTijI38LwtcGandOf2L6mOpEZpS0iNbT10LDIf_FgJuM2bJ_i-hHlnl2G-w1ztRyxcKH8_LW7umfcPmT-mnkxtoZ8Y-86-B0bXytjBch4H0Qoj2-wPXS8IPnbBsc4GhefAQmPplsU7ObMzaXZmWlIQLsOc3OvGTZDZ_cOWdb4oYPKqWnzkcuvwFIcdjIB7twROPFToMgI9a2Hk4ucYZW8F8FZxytndr7xc2ztng-2QYUHbmT7MPnyFCf6tm0kaxK8A4wwguXpdHoTl7Ax1Tpax6M1lNyBTTmR9lW2NogXrti6wukRcYlgczOi7eqkoCL9Oh1BW1H3w_pKWxdwAVA51Xr6fJuSzHFg2WSzN4cITt9LkcJlY3ckfdntEwRBgwfYln-cJ0gPM6vkSgxHNqxbM9HYlhtPXS8yA&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-seneca-4",
+      "position": 4,
+      "name": "Glenora Wine Cellars",
+      "address": "5435 NY-14, Dundee, NY 14837, USA",
+      "lat": 42.5000667,
+      "lng": -76.9237833,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 10:00 AM – 5:00 PM",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3mO1UsSKhxWpWATl09bP9RCSdhSrmGu-Hrv37jOBIK84XE0PRe-bo_yLOXoiLIZ8uUAasiwr_iWFNnHzDXWomPakcmUYFKffOu-fRKhnRfKaeMAGbZqpvwfikFk4MsEPlCdbwE27PUauOZfCI-1BkRaOJ_1XSjBv4hAcotVDKIfcwNqIalu-QjHXqoGRQ3p1upKEETTQTBZhZj5fSZqBM_cpEsEJjm1196I2F7guAZ9xLHeDkmmq0MG-TmhkMmj9uxMceIJoiX0NITzdYEXb6heD4kM3gwqJan2OQ-IBNmpX97DgYofDWGRitPWLVX1a5-1Z70xb5z_ASGNwVWrs4zGzq7ELd1TQt_2UJB-JpLflt-0iVoMe-ZvrVFYue5ph8Q4qOEU6WnCBCKo4CNnmzz1X29bLc9LtB2eUpC17VdhPDik",
+      "map_url": "https://maps.google.com/?cid=1174985246494481810",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 12,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Glenora Wine Cellars"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3mO1UsSKhxWpWATl09bP9RCSdhSrmGu-Hrv37jOBIK84XE0PRe-bo_yLOXoiLIZ8uUAasiwr_iWFNnHzDXWomPakcmUYFKffOu-fRKhnRfKaeMAGbZqpvwfikFk4MsEPlCdbwE27PUauOZfCI-1BkRaOJ_1XSjBv4hAcotVDKIfcwNqIalu-QjHXqoGRQ3p1upKEETTQTBZhZj5fSZqBM_cpEsEJjm1196I2F7guAZ9xLHeDkmmq0MG-TmhkMmj9uxMceIJoiX0NITzdYEXb6heD4kM3gwqJan2OQ-IBNmpX97DgYofDWGRitPWLVX1a5-1Z70xb5z_ASGNwVWrs4zGzq7ELd1TQt_2UJB-JpLflt-0iVoMe-ZvrVFYue5ph8Q4qOEU6WnCBCKo4CNnmzz1X29bLc9LtB2eUpC17VdhPDik&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-seneca-5",
+      "position": 5,
+      "name": "Fulkerson Winery",
+      "address": "5576 NY-14, Dundee, NY 14837, USA",
+      "lat": 42.492661,
+      "lng": -76.9243894,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 10:00 AM – 5:00 PM",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 5:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1700"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3k-NcjaieiDY-Nc5m24wvi85MGEwVrpH_yW8hl7AoCxW2K0ez0Y_6qwQ5sstQp13Q4gbz-c9J7_0ELa0y4Yd7XKJbCOLcQhcPHBDt-ggXuLQ10mBNn25X2xIwGiChGNFF1C10a6N7icJdZEB18vA2-lnwY6R4_HA8Nq_ln8CUqLKwVdwizYIJlQICoxWQiQ1QwL0vJOjFgB4rLgmnvz9hK_9UnIuoHs_nOioi_vm2wROcaSZVyiMd3R7bIushNqaGTLEr2PZ4jeUUQ0BIAO6A2jSMZD8-Sa5AopxTyDJ2OF-UBCI8ax4rGDLyBp4D5-Js0gyQrgd2vR2X7YMhxU_xO8x9RVKO02IBR-_s0CaseHPHnp7zQUdsG9nqBJbZJdxkGXg-3WQO-3MviyGjYKy4k1D7q4HoH4NhX2jU1eEk8",
+      "map_url": "https://maps.google.com/?cid=1357534224183973088",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": 9,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Fulkerson Winery"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3k-NcjaieiDY-Nc5m24wvi85MGEwVrpH_yW8hl7AoCxW2K0ez0Y_6qwQ5sstQp13Q4gbz-c9J7_0ELa0y4Yd7XKJbCOLcQhcPHBDt-ggXuLQ10mBNn25X2xIwGiChGNFF1C10a6N7icJdZEB18vA2-lnwY6R4_HA8Nq_ln8CUqLKwVdwizYIJlQICoxWQiQ1QwL0vJOjFgB4rLgmnvz9hK_9UnIuoHs_nOioi_vm2wROcaSZVyiMd3R7bIushNqaGTLEr2PZ4jeUUQ0BIAO6A2jSMZD8-Sa5AopxTyDJ2OF-UBCI8ax4rGDLyBp4D5-Js0gyQrgd2vR2X7YMhxU_xO8x9RVKO02IBR-_s0CaseHPHnp7zQUdsG9nqBJbZJdxkGXg-3WQO-3MviyGjYKy4k1D7q4HoH4NhX2jU1eEk8&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    },
+    {
+      "id": "stop-seneca-6",
+      "position": 6,
+      "name": "Wagner Vineyards Estate Winery",
+      "address": "9322 NY-414, Lodi, NY 14860, USA",
+      "lat": 42.5709434,
+      "lng": -76.8581227,
+      "tasting": "TODO: tasting flight description",
+      "note": "TODO: practical note",
+      "hours": [
+        "Monday: 10:00 AM – 5:00 PM",
+        "Tuesday: 10:00 AM – 5:00 PM",
+        "Wednesday: 10:00 AM – 5:00 PM",
+        "Thursday: 10:00 AM – 5:00 PM",
+        "Friday: 10:00 AM – 9:00 PM",
+        "Saturday: 10:00 AM – 5:00 PM",
+        "Sunday: 10:00 AM – 5:00 PM"
+      ],
+      "hours_periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "1700"
+          },
+          "open": {
+            "day": 0,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1700"
+          },
+          "open": {
+            "day": 1,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1700"
+          },
+          "open": {
+            "day": 2,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1700"
+          },
+          "open": {
+            "day": 3,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1700"
+          },
+          "open": {
+            "day": 4,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2100"
+          },
+          "open": {
+            "day": 5,
+            "time": "1000"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1700"
+          },
+          "open": {
+            "day": 6,
+            "time": "1000"
+          }
+        }
+      ],
+      "photo_ref": "AaVGc3nSzzSGa7vy9LSPpWuud92WZ5wizTE_OIBm9rOoYZB7CY8vFlAwF7JO_Lt7X_p4r9l_ZXLgZ7YxkdnwIhdxMsSztdfuVvimo8SQ2kbFVrQzz8ScKf5IqTtFd2yeHx18gPJxAvFQlN6BH02n0Gw_-k9LEcgQHpXeWjA7z28haRhqaM-sWhvc47Xn_DRosnQIq682a4Mza1Z-M2LZopFuMmwV6Uy1J78A2gXL8Xsz6M0Op_RyBz2jxdGREdZAaIG52SzgQpnQ1x2Mna8990FD6xYFVhYDU5lC93pIw9Wg1oFMRMKhHjnFUO7-dj8nSF3FxSmCK73FFeOifOqAXaM3UtvGtPYrolNRhJfiTOSXWnt3YxECC7_rF-l5P1Y2af3LTkIlkemth9OVnB9hNnvDGNrKILAIu0OAExlIcK9Nblcamu1kz-38PczI7NB4Lg",
+      "map_url": "https://maps.google.com/?cid=12302360960159068524",
+      "booking_type": "walk_in",
+      "booking_url": null,
+      "drive_time_to_next_min": null,
+      "lunch_close_start": null,
+      "lunch_close_end": null,
+      "content": [
+        {
+          "type": "heading",
+          "text": "TODO: Story title for Wagner Vineyards"
+        },
+        {
+          "type": "image",
+          "url": "/api/google/photo?ref=AaVGc3nSzzSGa7vy9LSPpWuud92WZ5wizTE_OIBm9rOoYZB7CY8vFlAwF7JO_Lt7X_p4r9l_ZXLgZ7YxkdnwIhdxMsSztdfuVvimo8SQ2kbFVrQzz8ScKf5IqTtFd2yeHx18gPJxAvFQlN6BH02n0Gw_-k9LEcgQHpXeWjA7z28haRhqaM-sWhvc47Xn_DRosnQIq682a4Mza1Z-M2LZopFuMmwV6Uy1J78A2gXL8Xsz6M0Op_RyBz2jxdGREdZAaIG52SzgQpnQ1x2Mna8990FD6xYFVhYDU5lC93pIw9Wg1oFMRMKhHjnFUO7-dj8nSF3FxSmCK73FFeOifOqAXaM3UtvGtPYrolNRhJfiTOSXWnt3YxECC7_rF-l5P1Y2af3LTkIlkemth9OVnB9hNnvDGNrKILAIu0OAExlIcK9Nblcamu1kz-38PczI7NB4Lg&max=800"
+        },
+        {
+          "type": "text",
+          "text": "TODO: Story. Do not invent history or awards."
+        }
+      ]
+    }
+  ]
+}

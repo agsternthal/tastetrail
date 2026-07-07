@@ -7,10 +7,12 @@ export default function BuyButton({
   trailId,
   isAuthed,
   priceLabel,
+  onBrand = false,
 }: {
   trailId: string
   isAuthed: boolean
   priceLabel: string
+  onBrand?: boolean
 }) {
   const router = useRouter()
   const [busy, setBusy] = useState(false)
@@ -45,11 +47,15 @@ export default function BuyButton({
       <button
         onClick={buy}
         disabled={busy}
-        className="w-full rounded-xl bg-brand px-5 py-4 text-center font-semibold text-white shadow-sm active:scale-[.99] disabled:opacity-60"
+        className={`w-full rounded-xl px-5 py-4 text-center font-semibold shadow-sm active:scale-[.99] disabled:opacity-60 ${
+          onBrand
+            ? 'bg-white text-brand'
+            : 'bg-brand text-white'
+        }`}
       >
         {busy ? 'Unlocking...' : `Get this trail · ${priceLabel}`}
       </button>
-      <p className="mt-2 text-center text-xs text-stone-400">
+      <p className={`mt-2 text-center text-xs ${onBrand ? 'text-brand-light' : 'text-stone-400'}`}>
         Test mode - no card is charged. Instant access.
       </p>
     </div>

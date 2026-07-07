@@ -87,71 +87,92 @@ export default async function TrailDetail({ params }: { params: { id: string } }
         <h2 className="mt-7 text-sm font-semibold uppercase tracking-wide text-stone-500">
           The stops
         </h2>
-        <ol className="mt-3 space-y-3">
-          {stops.map((s, i) => (
-            <li key={s.id} className="flex gap-3">
-              <span className="mt-0.5 flex h-7 w-7 flex-none items-center justify-center rounded-full bg-brand/10 text-sm font-bold text-brand">
-                {s.position}
-              </span>
-              <div className="min-w-0 flex-1">
-                <div className="font-semibold">
-                  {owned ? s.name : `Stop ${s.position}`}
-                </div>
-                <div className="text-sm text-stone-600">{s.tasting}</div>
-                {owned ? (
-                  <div className="mt-1 flex flex-wrap items-center gap-2">
-                    <div className="text-xs text-stone-400">{s.address}</div>
-                    <span
-                      className={`rounded-full px-2 py-0.5 text-xs font-medium ${
-                        BOOKING_BADGE[s.booking_type] ?? BOOKING_BADGE.walk_in
-                      }`}
-                    >
-                      {bookingLabel(s.booking_type)}
-                    </span>
-                    {s.booking_type === 'required' && s.booking_url && (
-                      <a
-                        href={s.booking_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs font-medium text-brand underline"
+        <div className="relative mt-3">
+          <ol className="space-y-3">
+            {stops.map((s, i) => (
+              <li key={s.id} className="flex gap-3">
+                <span className="mt-0.5 flex h-7 w-7 flex-none items-center justify-center rounded-full bg-brand/10 text-sm font-bold text-brand">
+                  {s.position}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="font-semibold">{s.name}</div>
+                  <div className="text-sm text-stone-600">{s.tasting}</div>
+                  {owned ? (
+                    <div className="mt-1 flex flex-wrap items-center gap-2">
+                      <div className="text-xs text-stone-400">{s.address}</div>
+                      <span
+                        className={`rounded-full px-2 py-0.5 text-xs font-medium ${
+                          BOOKING_BADGE[s.booking_type] ?? BOOKING_BADGE.walk_in
+                        }`}
                       >
-                        Book ↗
-                      </a>
-                    )}
-                  </div>
-                ) : (
-                  <div className="text-xs text-stone-400">
-                    Location revealed after purchase
-                  </div>
-                )}
-                {i < stops.length - 1 && s.drive_time_to_next_min && (
-                  <div className="mt-1 text-xs text-stone-400">
-                    ~{s.drive_time_to_next_min} min drive to next stop
-                  </div>
-                )}
+                        {bookingLabel(s.booking_type)}
+                      </span>
+                      {s.booking_type === 'required' && s.booking_url && (
+                        <a
+                          href={s.booking_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-xs font-medium text-brand underline"
+                        >
+                          Book ↗
+                        </a>
+                      )}
+                    </div>
+                  ) : null}
+                  {i < stops.length - 1 && s.drive_time_to_next_min && (
+                    <div className="mt-1 text-xs text-stone-400">
+                      ~{s.drive_time_to_next_min} min drive to next stop
+                    </div>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ol>
+
+          {!owned && (
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white to-transparent" />
+          )}
+        </div>
+
+        {!owned && (
+          <div className="mt-6 overflow-hidden rounded-2xl border-2 border-brand bg-brand text-white shadow-lg">
+            <div className="p-5">
+              <div className="flex items-center gap-2 text-lg font-bold">
+                <span>🔒</span>
+                <span>Unlock this trail</span>
               </div>
-            </li>
-          ))}
-        </ol>
+              <p className="mt-1 text-sm text-brand-light">
+                One-time purchase. Use it on any device, any time.
+              </p>
+              <ul className="mt-3 space-y-1 text-sm">
+                <li className="flex gap-2"><span>✓</span><span>GPS-guided follow mode</span></li>
+                <li className="flex gap-2"><span>✓</span><span>Addresses + directions to every stop</span></li>
+                <li className="flex gap-2"><span>✓</span><span>Booking info and tasting notes</span></li>
+                <li className="flex gap-2"><span>✓</span><span>Redeemable flight tokens at each stop</span></li>
+              </ul>
+              <div className="mt-4">
+                <BuyButton trailId={trail.id} isAuthed={!!user} priceLabel={priceLabel} onBrand />
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
-      <div
-        className="fixed inset-x-0 bottom-0 z-30 border-t border-stone-200 bg-white p-4"
-        style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))' }}
-      >
-        <div className="mx-auto max-w-[480px]">
-          {owned ? (
+      {owned && (
+        <div
+          className="fixed inset-x-0 bottom-0 z-30 border-t border-stone-200 bg-white p-4"
+          style={{ paddingBottom: 'calc(1rem + env(safe-area-inset-bottom))' }}
+        >
+          <div className="mx-auto max-w-[480px]">
             <Link
               href={`/trails/${trail.id}/follow`}
               className="block w-full rounded-xl bg-brand px-5 py-4 text-center font-semibold text-white shadow-sm active:scale-[.99]"
             >
               Start trail
             </Link>
-          ) : (
-            <BuyButton trailId={trail.id} isAuthed={!!user} priceLabel={priceLabel} />
-          )}
+          </div>
         </div>
-      </div>
+      )}
     </main>
   )
 }
